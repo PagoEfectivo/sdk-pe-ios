@@ -1,0 +1,6 @@
+framework module PagoEfectivoSDK {
+  umbrella header "PagoEfectivoSDK.h"
+
+  export *
+  module * { export * }
+}
