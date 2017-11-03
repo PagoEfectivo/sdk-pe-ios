@@ -28,6 +28,10 @@
 /** `getDateToRequest` es el método que retorna el tiempo en el formato como indica el servicio*/
 +(NSString *) getDateToRequest;
 
+/** `getDateToRequest` es el método que retorna el tiempo en el formato como indica el servicio*/
+/** @param dateToFormat Es la fecha de tipo `NSDate` a aplicar formato*/
++(NSString *) getDateToRequest:(NSDate*) dateToFormat;
+
 /** `generateHashToRequest` es el método que retorna el hash que solicita el servicio*/
 /** @param idService En este parámetro debe ingresarse un id válido*/
 /** @param accessKey En este parámetro debe ingresarse un accessKey válido*/

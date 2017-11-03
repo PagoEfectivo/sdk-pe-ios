@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PagoEfectivoSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'SDK de PagoEfectivo'
   s.description      = <<-DESC
   PagoEfectivoSDK le permitirá implementar de forma sencilla y rápida las funcionalidades que ofrece para realizar transacciones online a través de la plataforma de PagoEfectivo en dispositivos iPhone.
